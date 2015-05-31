@@ -1,0 +1,552 @@
+.enter {
+	z-index: 100;
+	position: ;
+	max-height: 100%;
+}
+
+.thisthurs{
+	position: top;
+	max-width: 100%;
+	z-index: 100;
+}
+
+.heavenhappens{
+	max-width: 100%;
+}
+
+.danceparty {
+	max-width: 100%;
+}
+
+.pyramid {
+	max-width: 100%;
+}
+
+.pyramidtwo {
+	max-width: 50%;
+}
+
+.triangleoutline {
+	max-width: 30%;
+}
+.cone {
+	max-width: 100%;
+}
+.ball{
+	max-width: 20%
+}
+.cube {
+	max-width: 100%;
+}
+
+.welcome{
+	max-width: 100%;
+}
+
+.three {
+	max-width: 100%;
+}
+
+.sphere {
+	max-width: 100%;
+}
+.spherebigoutline{
+	max-width: 100%;
+}
+
+.button {
+	max-width: 100%}
+
+}
+
+.one {
+	max-width: 100%;
+}
+
+.two {
+	max-width: 100%;
+}
+
+.three {
+	max-width: 100%;
+}
+
+.halo {
+	max-width: 100%;
+}
+
+.welcome {
+	max-width: 50%;
+}
+
+.afterparty {
+	max-width: 100%;
+	z-index: 100;
+
+}
+
+body.one header {
+		color: rgb(250, 250, 248);
+		text-shadow: 300px 300px 300px rgba(215, 77, 180, 0.75);
+		text-align: center;
+		margin-right: 200px;
+		margin-bottom: 1px;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 200px; 
+	}
+		
+body.one{ 
+	background-image: url("images/01.jpg");
+	background-size: 100%;
+	padding-bottom: 50000px;
+
+
+}
+
+body.one h1 {
+
+	
+}
+body.one .welcome{
+	margin-top: 5px;
+	margin-left: 700px;
+}
+
+body.one .wings {
+	margin-top: 150px;
+
+}
+
+body.one .wings1 {
+	margin-top: 200px;
+
+}
+body.one .wings2 {
+	margin-top: 1px;
+ 	
+
+}
+
+body.one h2 {
+	margin-left: 300px;
+}
+
+body.one .button {
+
+		position: absolute;
+		left: 250px;
+		opacity: 100%;
+		margin-right: 30px;
+		margin-top: 5px;
+		margin-bottom: 1000px;
+
+
+}
+
+
+
+
+body.two header {
+		color: rgb(250, 250, 248);
+		text-shadow: 300px 300px 300px rgba(215, 77, 180, 0.75);
+		text-align: center;
+		margin-right: 200px;
+		margin-bottom: 1px;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 200px; 
+	}
+		
+body.two{ 
+	background-image: url("images/06.jpg");
+	background-size: 100%;
+	padding-bottom: 50000px;
+
+
+}
+
+body.two h3{	
+	background: rgb(144, 206, 248);
+	box-shadow: 200px 200px 200px rgba(215, 77, 180, 0.75);
+	width: 300px;
+	font-family: Lucida Console, Monaco, monospace;
+	padding: 50px 20px 20px 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+
+body.two p{
+	display: inline-block;
+	background: rgb(144, 206, 248);
+	box-shadow: 200px 200px 200px rgba(215, 77, 180, 0.75);
+	width: 300px;
+	font-family: Lucida Console, Monaco, monospace;
+	padding: 20px 20px 20px 20px;
+}
+
+body.two h1 {
+	background-color: white;
+	margin-top: 500px;
+	max-width: 200px;
+	margin-left: 150px;
+	height: 600px;
+	padding: 30px 30px 30px 30px;
+
+	
+}
+body.two .wings {
+	margin-top: 5px;
+
+}
+
+body.two .wings1 {
+	margin-top: 200px;
+	margin-left: 500px;
+
+}
+body.two .wings2 {
+	margin-top: 1px;
+ 	
+
+}
+
+body.two h2 {
+	margin-left: 300px;
+}
+
+body.two .button {
+
+		position: relative;
+		left: 250px;
+		opacity: 100%;
+		margin-right: 30px;
+		margin-top: 200px;
+		
+
+
+}
+
+body.space {
+	background-color: black;
+		background-image: url("images/10.gif");
+		background-size: 100%;
+	
+}
+
+
+body.space .button {
+	margin-top: 500px;
+	margin-left: 50px; 
+	position: relative;
+	    -webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+body.space .one{
+	margin-top: 1000px;
+	margin-left: 300px; 
+	position: relative;
+	    -webkit-animation: spin 4s infinite linear;
+    animation: spin 4s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+
+
+}
+
+body.space .two{
+margin-top: 1500px;
+	margin-left: 50px; 
+	position: relative;
+	    -webkit-animation: spin 4s infinite linear;
+    animation: spin 4s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+
+body.space .three{
+margin-top: 2000px;
+	margin-left: 50px; 
+	position: relative;
+	    -webkit-animation: spin 4s infinite linear;
+    animation: spin 4s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+	
+}
+
+body.gates {
+/*	background-image: url("images/heaven.jpg");
+	background-size: 100%;
+*/
+	overflow: hidden;
+}
+
+body.gates #staircase {
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+}
+
+body.gates .enter{
+	position: fixed;
+	top: 300px;
+	left: 425px;
+	z-index: 100;
+}
+
+/*body.gates #welcomeMarquee {
+	z-index: 200;
+	position: relative;
+	right: 10%;
+}*/
+
+body.next {
+
+
+}
+
+body.next .sphere {
+	position: fixed;
+	width: 50%;
+	right: 30%;
+	top: 5%;
+
+}
+
+body.next .cone{
+		position: fixed;
+		top: 50%;
+		height: 50%;	
+}
+
+body.next .halo{
+	
+}
+
+body.next #nextbackground{
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+
+}
+
+body.next .blocks{
+	position:fixed;
+	right: 10%;
+	top: 10%;
+}
+body.next .ball{
+	position: fixed;
+	max-width: 20%;
+	right: 5%;
+	top: 70%;
+}
+
+body.after {
+	background-image: url("images/afterbackground.jpg");
+	background-size: 100%;
+	padding-bottom: 800px;
+
+
+}
+
+body.after .welcome{
+	padding-left: 900px;
+	padding-top: 600px;
+}
+
+body.spherebig {
+
+
+}
+body.spherebig .enter{
+
+	z-index: 100;
+}
+
+body.spherebig #backgroundspherebig {
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+}
+
+body.spherebig .sphere {
+	padding-left: 100px;
+} 
+
+body.spherebigoutline {
+	background-image: url("images/cloudsabove.jpg");
+	background-size: 100%;
+	padding-bottom: 800px;
+
+}
+
+body.spherebigoutline #backgroundspherebigoutline{
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+
+}
+
+body.spherebigoutline .sphere {
+	padding-left: 100px;
+} 
+
+body.spherebigoutline .thisthurs{
+
+}
+
+body.pyramid {
+	background-image: url("images/heavenly.jpg");
+	background-size: 100%;
+	padding-bottom: 800px;
+
+}
+body.pyramid .enter{
+
+	z-index: 100;
+}
+body.pyramid #pyramidbackground{
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+}
+
+body.pyramidblack {
+	background-color: black;
+	background-image: url("images/nightsky.gif");
+	background-size: 100%;
+	padding-bottom: 800px;
+	
+}
+
+body.cube .sphere{
+	width: 50%;
+
+}
+body.cube #backgroundcube {
+		position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index: -100;
+
+} 
+body.cube .enter{
+	
+	z-index: 100;
+
+}
+
+body.cubeblack {
+	background-image: url("images/madspace.gif");
+	background-size: 50%;
+	padding-bottom: 800px;
+	
+
+}
+
+body.final {
+		background-image: url("images/cloudbackground.jpg");
+	background-size: 100%;
+	padding-bottom: 800px;
+}
+
+body.map {
+	background-image: url("images/bluesky.gif");
+	background-size: 100%;
+}
+
+body.map .arrow{
+	padding-left: 50%;
+}
+
+.chair{
+	margin-left: 300px;
+	position: relative;
+	    -webkit-animation: spin 10s infinite linear;
+    animation: spin 10s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+
+.heavenhappened #heavenhappenedbackground{
+	background-image: url("images/heavenhappenedbackground.jpg");
+	position: fixed;
+	top: 0; left: 0;
+	width: 2000px;
+	z-index:-100;
+	padding-bottom: 800px;
+
+}
+
+.afterparty {
+	position: fixed;
+	top: 70px;
+	z-index: 100;
+}
+
+
+}

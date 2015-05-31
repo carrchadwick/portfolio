@@ -1,0 +1,243 @@
+
+.frame {
+
+			  position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 10000px;
+    z-index: -1;
+
+
+}
+
+.cnn {
+		transform: perspective( 90px ) rotateY( 70deg ) rotate(7.5deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		float:right;
+			
+		margin-top: 200px;
+		margin-bottom: 50px;
+		  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.cnn1 {
+		transform: perspective( 90px ) rotateY( -70deg ) rotate(-7.5deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-left: 170px;
+		margin-top: 200px;
+		margin-bottom: 50px;
+		  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+		
+
+	}
+.cnn2 {
+		transform: perspective( 90px ) rotateY( 70deg ) rotateX( -5deg ) rotate(-45deg);
+
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		float:right;
+		margin-top: 370px;
+		margin-left: 20px;
+				  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+	}
+/*.cnn3 {
+		transform: perspective( 90px ) rotateY( -70deg ) rotateX( -5deg ) rotate(30deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-left: 350px;
+		float:left;
+	
+		margin-top: 350px;
+				  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+	}*/
+.cnn4 {
+		transform: perspective( 90px ) rotateY( -70deg ) rotateX( -7.5deg ) rotate( 15deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		float: left;
+		margin-left: 170px;
+	
+			margin-top: 300px;
+				  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+		
+	}
+.cnn5 {
+		transform: perspective( 90px ) rotateY( 70deg ) rotateX( -7.5deg ) rotate(-15deg );
+	    height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		float: left;
+					margin-top: 300px;
+				  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+		
+	}
+.cnn6 { 
+		transform: perspective( 90px ) rotateY( 70deg ) rotateX( -20deg ) rotate(25deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-top: 120px;
+		position: absolute;
+		margin-left: 40px;
+	    left: 0px;
+	    top: 0px;
+	    z-index: -1;
+	}
+.cnn7 {
+		transform: perspective( 90px ) rotateY( -70deg ) rotateX( -20deg ) rotate(-25deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-top: 120px;
+		position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    z-index: -1;
+	    margin-left: 130px;
+	}
+.cnn8 {
+		transform: perspective( 90px ) rotateY( -70deg ) rotateX( 20deg ) rotate(45deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-top: 120px;
+		position: absolute;
+		margin-left: 100px;
+		margin-top: 370px;
+	    left: 0px;
+	    top: 0px;
+	    z-index: -1;
+	}
+	.cnn9 {
+
+	transform: perspective( 90px ) rotateY( -70deg ) rotateX( -20deg ) rotate(-25deg);
+		height:25px;
+		width:800px;
+		background-color:000000;
+		font-family:Arial;
+		font-size:22px;
+		color:FFFFFF;
+		font-weight:bold;
+		border-width:0;
+		border-style: solid;
+		border-color:000000;
+		margin-top: 120px;
+		position: absolute;
+	    left: 0px;
+	    top: 0px;
+	    z-index: -1;
+	    margin-left: 130px;
+	}
+
+.news {
+
+	margin-top: 250px;
+	margin-left: 180px;
+		    -webkit-animation: spin 3600s infinite linear;
+    animation: spin s infinite linear;
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(360deg);
+        -o-transform:rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+}
+}*/*/

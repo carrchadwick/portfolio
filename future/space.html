@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <meta charset="utf-8">
+     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400' rel='stylesheet' type='text/css'>
+
+     <SCRIPT language=JavaScript1.2>
+var speed=25
+var currentpos=0,alt=1,curpos1=0,curpos2=-1
+function initialize(){
+startit()
+}
+function scrollwindow(){
+if (document.all &&
+!document.getElementById)
+temp=document.body.scrollTop
+else
+temp=window.pageYOffset
+if (alt==0)
+alt=2
+else
+alt=1
+if (alt==0)
+curpos1=temp
+else
+curpos2=temp
+if (curpos1!=curpos2){
+if (document.all)
+currentpos=document.body.scrollTop+speed
+else
+currentpos=window.pageYOffset+speed
+window.scroll(0,currentpos)
+}
+else{
+currentpos=0
+window.scroll(0,currentpos)
+}
+}
+function startit(){
+	setInterval("scrollwindow()",50)}
+window.onload=initialize
+</SCRIPT>
+ <style>
+  
+  @media screen and (max-width: 1024px) {
+    .button {width: 100% }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .button {width: 100% }
+  }
+
+  @media screen and (max-width: 768px) {
+    .button {width: 75% }
+  }
+
+  @media screen and (max-width: 600px) {
+    .button {width: 50% }
+  }
+
+  @media screen and (max-width: 480px) {
+    .button {width: 25% }
+  }
+
+  @media screen and (max-width: 320px) {
+    .button {width: 10% }
+  }
+
+    @media screen and (max-width: 1024px) {
+    .button {width: 100% }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .one {width: 100% }
+  }
+
+  @media screen and (max-width: 768px) {
+    .one {width: 75% }
+  }
+
+  @media screen and (max-width: 600px) {
+    .one {width: 50% }
+  }
+
+  @media screen and (max-width: 480px) {
+    .one {width: 25% }
+  }
+
+  @media screen and (max-width: 320px) {
+    .one {width: 10% }
+  }
+
+    @media screen and (max-width: 900px) {
+    .two {width: 100% }
+  }
+
+  @media screen and (max-width: 768px) {
+    .two {width: 75% }
+  }
+
+  @media screen and (max-width: 600px) {
+    .two {width: 50% }
+  }
+
+  @media screen and (max-width: 480px) {
+    .two {width: 25% }
+  }
+
+  @media screen and (max-width: 320px) {
+    .two {width: 10% }
+  }
+
+    @media screen and (max-width: 900px) {
+    .three {width: 100% }
+  }
+
+  @media screen and (max-width: 768px) {
+    .three {width: 75% }
+  }
+
+  @media screen and (max-width: 600px) {
+    .three {width: 50% }
+  }
+
+  @media screen and (max-width: 480px) {
+    .three {width: 25% }
+  }
+
+  @media screen and (max-width: 320px) {
+    .three {width: 10% }
+  }
+  </style>
+
+
+</head>
+
+<body>
+    <body class="space">
+
+
+      <img class="button" src="images/sorry.png"> 
+
+      <img class="one" src="images/but.png"> 
+
+			<img class="two" src="images/you're.png"> 
+
+      <img class="three" src="images/invited.png"> 
+
+
+            
+<div class="four">
+			 <marquee behavior="scroll" direction="right" >
+     <a href="gates.html">
+    <img src="images/07.gif" alt="Swimming fish">
+    </marquee> </div>
+
+
+
+
+<br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />&#8595; <br />
+</body>
+</html>
