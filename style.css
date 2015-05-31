@@ -61,6 +61,7 @@ p.scroll {
 	color: black;
 	font-style: italic;
 	z-index:-100;
+	margin-left: 405px;
 	margin-bottom: 375px;
 }
 
