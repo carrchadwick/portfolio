@@ -14,17 +14,16 @@
 
 
 p.scroll {
-	background-color: black;
-	border-style: dotted;
+border-style: dotted;
 		border-width: 3px;
-		border-color:white;
-	height: 15px;
+		border-color:black;
+	height: 75px;
 	width: 350px;
 	overflow: auto;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-family: helvetica;
 	font-size: 15px;
-	color: white;
+	color: black;
 	z-index:-100;
 }
