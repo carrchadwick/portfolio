@@ -18,7 +18,7 @@ p.scroll {
 	border-style: dotted;
 		border-width: 3px;
 		border-color:black;
-	height: 30px;
+	height: 75px;
 	width: 350px;
 	overflow: auto;
 	padding-left: 20px;
