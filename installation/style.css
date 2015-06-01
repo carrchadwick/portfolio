@@ -1,0 +1,30 @@
+#typo{
+	max-width: 100%;
+
+}
+
+#wiggle {
+	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+p.scroll {
+	background-color: black;
+	border-style: dotted;
+		border-width: 3px;
+		border-color:white;
+	height: 15px;
+	width: 350px;
+	overflow: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: helvetica;
+	font-size: 15px;
+	color: white;
+	z-index:-100;
+}
