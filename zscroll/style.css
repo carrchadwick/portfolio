@@ -1,0 +1,100 @@
+<style>
+.home-content {
+   width:100%;
+}
+
+.home-container{
+   padding:2em;	
+}
+article{
+   height:1000px;
+}
+#viewport { 
+overflow:auto;
+   position:fixed;
+   -webkit-perspective:400px;
+   -webkit-perspective-origin:50% 50%;
+   border: 2px solid black;
+   height: 400px;
+   width: 800px;
+   margin-left:auto;
+   margin-right:auto;
+   
+}
+.box {
+   position:absolute;
+   width:100px;
+   height:100px;
+   left:50%;
+   top:50%;
+   margin-left:-50px;
+   margin-top:-50px;
+ }
+ #a {
+   background-color:rgba(255,0,0,.5);
+   border:2px solid red;
+   -webkit-transform:translateZ(-200px)
+}
+ #b {
+   background-color:rgba(0,255,0,.5);
+   border:2px solid green;
+   -webkit-transform:translateZ(-100px)
+ }
+ #c {
+  background-color:rgba(0,0,255,.5);
+  border:2px solid blue;
+  -webkit-transform:translateZ(0px)
+ }
+</style>
+
+<section class="home-container">
+
+			<div class="home-content">
+				<article>
+                
+  <div id="viewport">
+  
+    <div class="box" id="a"></div>
+    <div class="box" id="b"></div>
+    <div class="box" id="c"></div>
+  </div>
+  <script>
+  
+    var scrollPosition = document.body.scrollTop,
+        boxPositions = [-200, -100, 0];
+    function scrollDelta() {
+      var newScrollPosition = document.body.scrollTop,
+          delta = newScrollPosition - scrollPosition;
+      scrollPosition = document.body.scrollTop;
+      return delta;
+    }
+    function moveCamera(e) {
+      var boxes = document.getElementsByClassName("box"),
+          delta = scrollDelta();
+      for (var i=0,l=boxes.length;i<l;i++) {
+        boxPositions[i] += parseInt(delta);
+        boxes[i].style["-webkit-transform"] = "translateZ("+boxPositions[i]+"px)";
+		}
+		
+		return cancelEvent(e);	  
+    } 
+	function cancelEvent(e)
+	{
+	  e = e ? e : window.event;
+	  if(e.stopPropagation)
+		e.stopPropagation();
+	  if(e.preventDefault)
+		e.preventDefault();
+	  e.cancelBubble = true;
+	  e.cancel = true;
+	  e.returnValue = false;
+	  return false;
+	}
+	
+	window.addEventListener("scroll", moveCamera, false);
+ </script>
+</article>
+                
+			</div>
+
+		</section>

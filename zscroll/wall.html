@@ -1,0 +1,131 @@
+<html>
+<head>
+  <title>the wall</title>
+
+<style>
+body, html {
+  margin: 0;
+}
+.home-content {
+   width:100%;
+}
+
+.home-container{
+
+}
+article{
+    background-color: red;
+   height:6000px;
+}
+#viewport { 
+overflow:auto;
+   position:fixed;
+   -webkit-perspective:180px; /* Distance (lower number higher distance) */
+   -webkit-perspective-origin:50% 50%;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+
+.box {
+
+   position:absolute;
+   width:1200px;
+   height:800px;
+   left: 50%;
+   top: 50%;
+   margin-left: -600px;
+   margin-top: -400px;
+ }
+
+.grass {
+  transform: perspective(50em) rotateX(50deg);
+}
+
+</style>
+
+
+
+<div class="home-content">
+<article>
+                    
+        <div id="viewport">
+          <div class="box"><img src="images/sunset.gif"></div>
+          <div class="box"><img src="images/2.png"></div>
+          <div class="box"><img src="images/3.png"></div>
+          <div class="box"><img src="images/4.png"></div>
+          <div class="box"><img src="images/5.png"></div>
+          <div class="box"><img src="images/6.png"></div>
+          <div class="box"><img src="images/7.png"></div>
+          <div class="box"><img src="images/8.png"></div>
+          <div class="box"><img src="images/9.png"></div>
+          <div class="box"><img src="images/10.png"></div>
+          <div class="box"><img src="images/34.png"></div>
+          <div class="box"><img src="images/11.png"></div>
+          <div class="box"><img src="images/12.png"></div>
+          <div class="box"><img src="images/32.png"></div>
+          <div class="box"><img src="images/13.png"></div>
+          <div class="box"><img src="images/31.png"></div>
+          <div class="box"><img src="images/14.png"></div>
+          <div class="box"><img src="images/15.png"></div>
+          <div class="box"><img src="images/16.png"></div>
+          <div class="box"><img src="images/17.png"></div>
+          <div class="box"><img src="images/30.png"></div>
+          <div class="box"><img src="images/19.png"></div>
+          <div class="box"><img src="images/20.png"></div>
+         
+          
+      
+
+ 
+          
+          
+        </div>
+
+</article>               
+</div>
+
+
+
+
+
+<script>
+
+  var scrollPosition = document.body.scrollTop,
+      boxPositions = [-5000, -4000, -2800, -2700, -2600, -2500, -2400, -2300, -2200, -2100, -2000, -1900, -1800, -1700, -1600, 
+      -1500, -1400, -1300, -1200, -1100, -1000, -900, -800, -700, -600, -500, -400, -300, -200, -100, 0];
+  function scrollDelta() {
+    var newScrollPosition = document.body.scrollTop,
+        delta = newScrollPosition - scrollPosition;
+    scrollPosition = document.body.scrollTop;
+    return delta;
+  }
+  function moveCamera(e) {
+    var boxes = document.getElementsByClassName("box"),
+        delta = scrollDelta();
+    for (var i=0,l=boxes.length;i<l;i++) {
+      boxPositions[i] += parseInt(delta);
+      boxes[i].style["-webkit-transform"] = "translateZ("+boxPositions[i]+"px)";
+  }
+  
+  return cancelEvent(e);    
+  } 
+function cancelEvent(e)
+{
+  e = e ? e : window.event;
+  if(e.stopPropagation)
+  e.stopPropagation();
+  if(e.preventDefault)
+  e.preventDefault();
+  e.cancelBubble = true;
+  e.cancel = true;
+  e.returnValue = false;
+  return false;
+}
+
+window.addEventListener("scroll", moveCamera, false);
+</script>
+
+
+</body>
+</html>
